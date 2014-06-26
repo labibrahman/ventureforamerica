@@ -111,12 +111,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-style: italic;
 }
 main {
-  font-family: "Fira";
+  font-family: "Lato";
   font-weight: 400;
 }
 
 p {
-  font-family: "Fira";
+  font-family: "Lato";
   font-weight: 400;
   font-size: 1.15em;
   color: #1b1b1b;
@@ -148,7 +148,7 @@ a {
 
 .landing-page-text > h1 {
   color: #1b1b1b;
-  font-family: "Fira";
+  font-family: "Lato";
   font-weight: 700;
   font-size: 1.6em;
 }

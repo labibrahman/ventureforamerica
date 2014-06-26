@@ -410,21 +410,19 @@ main {
   }
   #copy h2 {
     padding-top: 0.4em;
+    padding-bottom: 0.4em;
     font-size: 2em;
   }
 }
 
-#hangout-with-fellow {
-  margin-left: 10%;
-  max-width: 80%;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+#headshot {
+  display: block;
+  text-align: center;
 }
 
-.hangout-with-fellow-images {
-  margin-top: -2em;
-  width: 220px;
+#labib-headshot {
+  height: 300px;
+  margin: auto;
 }
 
 .vertical-hero {
