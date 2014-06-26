@@ -1,0 +1,87 @@
+@import "singularitygs";
+@import "compass/reset";
+@import "partials/base";
+@import "partials/typefaces";
+@import "partials/colors";
+@import "partials/text";
+@import "partials/interaction";
+@import "partials/header";
+
+
+main {
+	margin-top: 78px;
+	width: 100%;
+}
+
+#copy {
+	margin: 0 auto;
+	padding: 1em;
+
+	#first-line {
+		color: $vfa-blue-two;
+		font: {
+			weight: 600;
+		}
+	}
+
+
+
+	p {
+		font: {
+			family: Lato;
+			weight: 400;
+			size: 1.2em;
+		}
+		padding-bottom: 0.5em;
+		line-height: 1.3;
+	}
+
+	h2 {
+		color: $vfa-blue-two;
+		font: {
+			family: Lato;
+			weight: 700;
+			size: 1.4em;
+		}
+	}
+
+	@include breakpoint(60em) {
+		padding: 2em;
+		margin: 0 auto;
+		max-width: 48em;
+		
+		#first-line {
+			font: {
+				weight: 600;
+				size: 1.7em;
+			}
+		}
+
+		p {  
+			padding-bottom: 0.8em;
+			font-size: 1.3em;
+		}
+
+		h2 {
+			padding-top: 0.4em;
+			padding-bottom: 0.4em;
+			font-size: 2em;
+		}
+	}
+}
+
+#vfa-map {
+	padding-top: 1em;
+	max-width: 550px;
+	display: block;
+	margin: 0 auto;
+}
+
+#detroit-infographic {
+	display: none;
+	max-width: 700px;
+}
+.vertical-hero {
+	display:none;
+}
+
