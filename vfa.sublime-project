@@ -2,9 +2,16 @@
 	"folders":
 	[
 		{
+			"folder_exclude_patterns":
+			[
+				"css"
+			],
 			"follow_symlinks": true,
-			"path": ".",
-			"folder_exclude_patterns": ["css"]
+			"path": "."
+		},
+		{
+			"follow_symlinks": true,
+			"path": "/Users/labibrahman/Downloads/Learn More"
 		}
 	]
 }
