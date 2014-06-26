@@ -415,14 +415,16 @@ main {
 }
 
 #hangout-with-fellow {
-  margin: 0 auto;
-  max-width: 1200px;
+  margin-left: 10%;
+  max-width: 80%;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 .hangout-with-fellow-images {
-  margin-bottom: -1em;
-  padding: 0 1em 0 1em;
-  width: 200px;
+  margin-top: -2em;
+  width: 220px;
 }
 
 .vertical-hero {

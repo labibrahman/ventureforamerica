@@ -33,7 +33,7 @@ $vertical-hero-width: 33.333333%;
 .vertical-hero {
     display: none;
     @include breakpoint (60em) {
-        background-image: url('../../assets/images/yang-talking-background-slide.jpg');
+        background-image: url();
         display: block;
         position: fixed;
         background-repeat: no-repeat;

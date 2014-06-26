@@ -69,20 +69,17 @@ main {
 	}
 }
 
-#hangout-with-fellow {
-	margin-left: 10%;
-	max-width: 80%;
-
-	position:fixed;
-	bottom:0px;
-	width:100%;
+#vfa-map {
+	padding-top: 1em;
+	max-width: 550px;
+	display: block;
+	margin: 0 auto;
 }
 
-.hangout-with-fellow-images {
-	margin-top: -2em;
-	width: 220px;
+#detroit-infographic {
+	display: none;
+	max-width: 700px;
 }
-
 .vertical-hero {
 	display:none;
 }
