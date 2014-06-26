@@ -1,5 +1,5 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+h1, h2, h3, h4, h5, h6, p, #headshot ul, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
@@ -115,7 +115,7 @@ main {
   font-weight: 400;
 }
 
-p {
+p, #headshot ul {
   font-family: "Lato";
   font-weight: 400;
   font-size: 1.15em;
@@ -123,21 +123,21 @@ p {
   line-height: 1.25em;
 }
 @media (min-width: 30em) {
-  p {
+  p, #headshot ul {
     font-size: 1.3em;
   }
 }
 @media (min-width: 45em) {
-  p {
+  p, #headshot ul {
     font-size: 1.35em;
   }
 }
 @media (min-width: 60em) {
-  p {
+  p, #headshot ul {
     font-size: 1.35em;
   }
 }
-p b {
+p b, #headshot ul b {
   font-weight: 500;
 }
 
@@ -170,47 +170,47 @@ a {
   }
 }
 
-.landing-page-text > p {
+.landing-page-text > p, #headshot .landing-page-text > ul {
   @inlcude landing-page-text-text;
   color: #1b1b1b;
   font-weight: 400;
   font-size: 1.3em;
 }
 @media (min-width: 30em) {
-  .landing-page-text > p {
+  .landing-page-text > p, #headshot .landing-page-text > ul {
     font-size: 1.7em;
     line-height: 1.2em;
   }
 }
 @media (min-width: 45em) {
-  .landing-page-text > p {
+  .landing-page-text > p, #headshot .landing-page-text > ul {
     font-size: 1.7em;
   }
 }
 @media (min-width: 60em) {
-  .landing-page-text > p {
+  .landing-page-text > p, #headshot .landing-page-text > ul {
     font-size: 2.3em;
     line-height: 1.4em;
   }
 }
 
-.copy > p:first-child {
+.copy > p:first-child, #headshot .copy > ul:first-child {
   font-weight: 500;
   color: #1b1b1b;
   padding-bottom: 0.3em;
 }
 @media (min-width: 30em) {
-  .copy > p:first-child {
+  .copy > p:first-child, #headshot .copy > ul:first-child {
     font-size: 1.4em;
   }
 }
 @media (min-width: 45em) {
-  .copy > p:first-child {
+  .copy > p:first-child, #headshot .copy > ul:first-child {
     font-size: 1.8em;
   }
 }
 @media (min-width: 60em) {
-  .copy > p:first-child {
+  .copy > p:first-child, #headshot .copy > ul:first-child {
     font-size: 1.8em;
   }
 }
@@ -242,7 +242,7 @@ a {
   border-color: #1b1b1b;
   background-color: #1b1b1b;
 }
-#learnmore a:hover p {
+#learnmore a:hover p, #learnmore a:hover #headshot ul, #headshot #learnmore a:hover ul {
   color: white;
 }
 
@@ -255,7 +255,7 @@ a {
   border-color: #002868;
   background-color: #002868;
 }
-#supportvfa a p {
+#supportvfa a p, #supportvfa a #headshot ul, #headshot #supportvfa a ul {
   color: white;
 }
 
@@ -268,7 +268,7 @@ a {
   border-color: #bf0a30;
   background-color: #bf0a30;
 }
-#applynow a p {
+#applynow a p, #applynow a #headshot ul, #headshot #applynow a ul {
   color: white;
 }
 
@@ -381,7 +381,7 @@ main {
   color: #002868;
   font-weight: 600;
 }
-#copy p {
+#copy p, #copy #headshot ul, #headshot #copy ul {
   font-family: Lato;
   font-weight: 400;
   font-size: 1.2em;
@@ -404,7 +404,7 @@ main {
     font-weight: 600;
     font-size: 1.7em;
   }
-  #copy p {
+  #copy p, #copy #headshot ul, #headshot #copy ul {
     padding-bottom: 0.8em;
     font-size: 1.3em;
   }
@@ -419,10 +419,17 @@ main {
   display: block;
   text-align: center;
 }
+#headshot ul {
+  font-size: 1em !important;
+}
 
 #labib-headshot {
   height: 300px;
   margin: auto;
+}
+
+img {
+  max-width: 48em;
 }
 
 .vertical-hero {

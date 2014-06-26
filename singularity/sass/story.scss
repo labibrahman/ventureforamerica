@@ -73,13 +73,22 @@ main {
 #headshot {
 	display: block;
 	text-align: center;
+
+	ul {
+		@extend p;
+		font-size: 1em !important;
+	}
 }
+
 
 #labib-headshot {
 	height: 300px;
 	margin: auto;
 }
 
+img {
+	max-width: 48em;
+}
 .vertical-hero {
 	display:none;
 }
